@@ -85,11 +85,11 @@ hr {
 }
 .bottom-container {
     background-color: #66BFBF;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 .copyright {
     color: #EAF6F6;
-    padding: 30px;
+    padding: 20px;
     font-size: .9rem;
 
 }
@@ -123,6 +123,7 @@ hr {
 
   .contact-mesg {
       margin-bottom: 50px;
+      font-size: large;
   }
 
   a:hover {
