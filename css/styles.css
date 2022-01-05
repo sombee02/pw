@@ -27,6 +27,7 @@ h2 {
 h3 {
     font-family: sans-serif;
     color: #11999E;
+    font-size: .7rem;
 }
 p {
     font-family: sans-serif;
@@ -137,5 +138,5 @@ hr {
     color: #66BFBF;
 }
 .footer-icons {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
