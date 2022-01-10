@@ -1,13 +1,13 @@
 var cnvs = document.querySelector("canvas");
 cnvs.width = window.innerWidth;
-cnvs.height = window.innerHeight;
+cnvs.height = 900;
 
 var c = cnvs.getContext('2d');
 
 ///////////////////////////////////CIRCULAR MOTION/////////////////////////////////////
 window.addEventListener("resize", function(){
     cnvs.width = window.innerWidth;
-    cnvs.height = window.innerHeight;
+    // cnvs.height = window.innerHeight;
     //dinamically generating circles all over when resising
     init();
 })
@@ -86,7 +86,7 @@ function init(){
 function animate(){
     requestAnimationFrame(animate);
     //for trailing effect 
-    c.fillStyle='rgb(26, 55, 77, 0.05)';
+    c.fillStyle='rgb(64, 104, 130, 0.05)';
     c.fillRect(0,0,cnvs.width,cnvs.height);
     //c.clearRect(0,0,cnvs.width,cnvs.height);
     //updating all line's position
