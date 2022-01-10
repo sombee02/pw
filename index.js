@@ -56,9 +56,6 @@ function Particle(x,y,r,color){
         var prevPoint = {x:this.x,y:this.y};
         //chnaging the path angle
         this.radians+=this.v;
-        //for smooth drag effect changing centre slowing
-        // this.lastMouse.x += (mouse.x-this.lastMouse.x)*0.05;
-        // this.lastMouse.y += (mouse.y-this.lastMouse.y)*0.05;
         //upadting new point
         this.x =x+ Math.cos(this.radians)*this.outerRad;
         this.y =y+ Math.sin(this.radians)*this.outerRad;
@@ -88,7 +85,6 @@ function animate(){
     //for trailing effect 
     c.fillStyle='rgb(26, 55, 77, 0.05)';
     c.fillRect(0,0,cnvs.width,cnvs.height);
-    //c.clearRect(0,0,cnvs.width,cnvs.height);
     //updating all line's position
     for(var i=0;i<partArr.length;i++){
         partArr[i].update(partArr);
