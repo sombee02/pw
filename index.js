@@ -86,7 +86,7 @@ function init(){
 function animate(){
     requestAnimationFrame(animate);
     //for trailing effect 
-    c.fillStyle='rgb(64, 104, 130, 0.05)';
+    c.fillStyle='rgb(26, 55, 77, 0.05)';
     c.fillRect(0,0,cnvs.width,cnvs.height);
     //c.clearRect(0,0,cnvs.width,cnvs.height);
     //updating all line's position
