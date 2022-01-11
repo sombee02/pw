@@ -1,6 +1,6 @@
 var cnvs = document.querySelector("canvas");
 cnvs.width = window.innerWidth;
-cnvs.height = 900;
+cnvs.height = 700;
 
 var c = cnvs.getContext('2d');
 
